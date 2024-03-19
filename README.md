@@ -1,6 +1,6 @@
 # 212220220034-Final-year-project-repository
 **Advanced Blockchain-Based Record digitilization Technique**
-1. INTRODUCTION
+**1. INTRODUCTION**
 
 The process of land reclamation within any nation is a multifaceted endeavor, involving numerous stakeholders with direct or indirect involvement in the process. From initial planning to execution and beyond, reclamation efforts demand collaboration and coordination across various sectors. However, the effectiveness of these efforts is often hindered by the limitations of existing land title capacity systems. These systems present formidable challenges, including the potential for information misrepresentation, vulnerabilities in safeguarding sensitive data, and the looming threat of system failures. Such shortcomings underscore the critical need for a transformative shift in the methodologies governing land ownership, management, and information storage.
 
@@ -10,7 +10,7 @@ The adoption of blockchain technology not only addresses the shortcomings of exi
 
 Despite the transformative potential of digitization and blockchain technology, the absence of a robust foundation in the existing land registry framework poses significant challenges. Real estate records, in particular, remain vulnerable to inconsistencies, inaccuracies, and falsifications in the absence of reliable systems. Blockchain innovation offers a viable solution to these challenges by furnishing a dependable, secure, and decentralized environment for storing and managing land records. By leveraging blockchain technology, stakeholders can ensure the integrity and accuracy of land ownership records, thereby mitigating the risk of fraud and manipulation.
 
-           2. PROBLEM DEFINITION
+**2. PROBLEM DEFINITION**
 The utilization of the existing framework, which employed RSA and SHA-1 hash algorithms for the digitalization of records, has encountered formidable challenges, casting doubts on its efficacy and security. Despite initial intentions to enhance data management and accessibility, the framework failed to withstand various cyber threats, including brute force attacks, factorization attacks, side-channel attacks, collision attacks, and pre-image attacks. These vulnerabilities have severely undermined the trustworthiness of the digitalization process among users, leading to widespread apprehension and fear regarding the security of their sensitive information.
 
 One of the primary concerns stemming from the inadequacies of the existing framework is the substantial time investment required for the digitalization of large volumes of records. This prolonged process has caused frustration and irritation among users, impeding the efficient transition to digital record-keeping practices. Additionally, the inability of the framework to withstand sophisticated cyberattacks has further exacerbated distrust and reluctance among stakeholders, hindering the adoption of digitalization initiatives.
@@ -20,12 +20,12 @@ In summary, the problem at hand revolves around the shortcomings of the current 
 
 
                                         
-            2.1 EXISTING SYSTEM
+**2.1 EXISTING SYSTEM****
 The digitalization of land records in India is undergoing a transformative shift by harnessing blockchain technology. Traditional methods of document storage and management are gradually giving way to more efficient digital systems, yet challenges persist in ensuring the reliability and security of land management frameworks. The presence of multiple stakeholders at various levels complicates interactions within the trading system, leaving electronic records vulnerable to unauthorized duplication or manipulation. To overcome these challenges, a blockchain-based approach is being adopted to fortify the land registry management framework. This approach promises enhanced security, immutability, and reliability of land records. By leveraging Ethereum technology, the digitization process is streamlined, making the system faster, simpler, and more stable.
 Blockchain technology fundamentally alters the traditional model of business integration by offering a decentralized and secure platform for transmitting information. Its peer-to-peer nature facilitates efficient and dependable interactions among stakeholders. Key attributes such as decentralization, stability, distributed relationships, fixed data sets, and time-stamping make blockchain a potent tool for digitizing land records in the Indian context.
 Several researchers and experts have proposed innovative solutions to address the challenges associated with blockchain implementation. These include resolving issues related to ID-based signatures, optimizing security models, improving trust mechanisms, and enhancing data storage methods. Additionally, insights into the security of blockchain technology in other domains, such as electronic health data exchange, further bolster confidence in its application to land record management.
 Overall, the adoption of blockchain technology represents a significant step forward in securing and streamlining the digitization of land records in India. By addressing concerns related to data integrity, security, and stakeholder trust, blockchain promises to revolutionize land management practices and pave the way for a more transparent and efficient system.
-2.1.1 Digital Land Registry System using blockchain:
+**2.1.1 Digital Land Registry System using blockchain:**
 The paper titled "Blockchain-Based Land Record System" explores the challenges faced in land record management in India and proposes a solution using blockchain technology. Authored by Kuldeep Vayadande and colleagues from Vishwakarma Institute of Technology, Pune, the paper discusses the shortcomings of the current system, the benefits of blockchain technology, and presents a detailed methodology for implementing a blockchain-based land record system.
 The introduction sets the stage by highlighting the importance of land records in India and the difficulties encountered in maintaining them due to the country's large population and the complexity of land transactions. The authors emphasize the need for a more efficient and reliable system to address issues like incomplete registries and fraudulent activities. They argue that blockchain technology can provide transparency and security in land record management.
 The paper outlines the challenges faced by the existing land record system in India, including delays, errors, and fraud facilitated by intermediaries. The authors point out the inefficiencies of paper-based records and the risks associated with the current digitalization efforts. They stress the need for a decentralized and tamper-proof solution to ensure data integrity and trustworthiness.
@@ -36,7 +36,7 @@ The paper provides an overview of the proposed model, highlighting its key objec
 A detailed architecture diagram of the proposed system is presented, illustrating the components and interactions involved in the blockchain-based land record system. The authors explain the roles of different stakeholders and how they interact with the system through web portals and smart contracts. They discuss the advantages of using a hybrid blockchain for privacy and transparency, as well as the importance of data security and integrity.
 The algorithm used for implementing the blockchain-based land record system is described, focusing on the use of Ethereum blockchain and smart contracts. The authors explain the cryptographic techniques and consensus mechanisms employed to ensure the security and reliability of the system.
 
-2.1.2 The efficient Consensus algorithm for land record management system:
+**2.1.2 The efficient Consensus algorithm for land record management system:**
 The paper presents the results of implementing the proposed model, highlighting its advantages over traditional and existing land record systems. The authors compare the proposed system with current practices, emphasizing its improved security, transparency, and efficiency. They discuss the potential impact of blockchain technology on land record management in India and suggest avenues for future research and development.
 The presented paper outlines an innovative approach to address challenges in land record management through the application of blockchain technology. Specifically, it introduces a scalable property/land registration framework utilizing blockchain, aiming to streamline the registration process and enhance data security, privacy, and collaboration among involved organizations.
 The research proposes an efficient consensus mechanism, named Modified Round Robin Consensus Algorithm (MRRCA), tailored to evaluate the performance of blockchain-based land revenue and recording automation systems. Through this consensus mechanism, the paper claims to reduce the message overhead by 30% - 40% when committing transactions to the network and adding blocks to the blockchain.
@@ -50,33 +50,33 @@ Furthermore, the paper presents a detailed analysis of the proposed consensus al
 To evaluate the performance of the proposed algorithms, the paper presents empirical results demonstrating the comparative advantages of the Modified Round Robin Consensus Algorithm over the conventional Round Robin Consensus Algorithm. Through these analyses, the paper concludes that the proposed algorithm significantly improves transaction efficiency in blockchain-based land registry systems.
 In conclusion, the research contributes to the ongoing efforts in leveraging blockchain technology to revolutionize land record management. By introducing efficient consensus mechanisms and exploring their performance, the paper offers valuable insights into enhancing the reliability, security, and scalability of property registration systems.
 
-2.1.3 Land registry system using blockchain: 
+**2.1.3 Land registry system using blockchain: **
 The proposed solution aims to address the challenges faced by the commercial real estate industry and land registration systems in Maharashtra by implementing a private and permissioned blockchain system using Hyperledger Fabric. This system offers improved transparency, trust, and efficiency compared to traditional centralized systems. By leveraging asymmetric cryptography for security and distributed consensus algorithms for ledger consistency, the blockchain platform ensures decentralization, persistence, anonymity, and auditability of data, resulting in reduced costs and enhanced reliability.
 The system consists of various components such as peers, certificate authorities (CA), chaincode, orderer, membership services (MSPs), channels, and Hyperledger Fabric Client (HFC). Peers are divided into endorsing and committing peers, with CA verifying and authorizing each peer. Chaincode contains the business logic for land registration and runs on the blockchain, while the orderer ensures the correct ordering of transactions. MSPs provide identities to users, and channels allow peers to access the ledger using chaincode. The Hyperledger Fabric Client facilitates communication with the blockchain and transaction execution.
 The functionality of the system involves several steps, including registering users and land assets, putting land for sale, and changing ownership. The admin manages these processes, ensuring that all necessary verifications are completed before allowing land transactions. Smart contracts enforce business logic and validation rules, ensuring that transactions meet predefined conditions. The system maintains a transaction history, allowing users to track ownership changes and land details conveniently.
 The algorithm implementation ensures the confidentiality of transactions by allowing only authorized participants to access the blockchain network. Hyperledger Fabric is chosen over other blockchain platforms like Ethereum due to its permissioned nature, which aligns with the requirements of the land registration system. It offers greater privacy and confidentiality, as well as customization options for specific business needs.
 Testing of the system involves creating a network, deploying the business network, and starting the network administrator identity. The Hyperledger Composer Rest Server provides a test interface for interacting with the business network, while Angular is used to build the front-end interface. Overall, the system offers a comprehensive solution for modernizing the land registration process in Maharashtra using blockchain technology. 
 
-2.1.4: A Survey on Blockchain and online land registration:
+**2.1.4: A Survey on Blockchain and online land registration:**
 The paper titled "Survey on Blockchain and Online Land Registration" authored by Syed Huzaifa Ali and Hassan Tahir Ali, explores the application of blockchain technology in the context of land registration, highlighting its potential benefits and addressing the challenges associated with traditional land registration methods. The abstract provides an overview of blockchain as a decentralized database and introduces the concept of online land registration using blockchain technology to streamline the process and enhance security. The authors conducted a survey involving 54 participants from various backgrounds to gauge awareness and interest in blockchain technology for land registration. The survey results indicate a growing preference for online platforms for transactions due to increased security and convenience.
 The methodology section outlines the research approach used, which is quantitative, involving a survey to collect data on people's comfort level with online transactions and their attitudes towards online land registration using blockchain. By analyzing user familiarity with online markets and their preferences for online transactions, the authors aimed to assess the feasibility and acceptance of blockchain-based land registration systems. The authors identify the inefficiencies of traditional land registration methods, such as time-consuming paperwork and manual processes, and propose online registration using blockchain technology as a solution to enhance efficiency and accessibility.
 
 In the conclusion, the authors summarize the findings of the survey, emphasizing the growing acceptance of online platforms for transactions and the potential of blockchain technology to revolutionize land registration processes. Despite acknowledging some shortcomings of blockchain technology, the authors highlight its immense potential and the need for further improvements to realize its full benefits. They stress the importance of data experts' involvement in understanding and refining blockchain-based recordkeeping systems to address challenges effectively. Overall, the paper underscores the transformative potential of blockchain technology in streamlining land registration processes and calls for continued research and development in this field.
 The paper also acknowledges the contributions of individuals and institutions involved in the research, including the supervisor and colleagues. It expresses gratitude to family members for their support during the project. Additionally, the authors briefly discuss the future prospects of blockchain in real estate and government sectors, highlighting the need for structural changes and innovative approaches to fully harness its benefits. Overall, the paper provides insights into the potential of blockchain technology in modernizing land registration processes and calls for collaborative efforts to overcome challenges and realize its full potential.
 
-2.1.5: Land Registration: Use-case of e-Governance using Blockchain Technology:
+**2.1.5: Land Registration: Use-case of e-Governance using Blockchain Technology:**
 The paper titled "Land Registration: Use-case of e-Governance using Blockchain Technology" addresses the inefficiencies and corruption prevalent in traditional e-Governance systems, particularly in the context of land registration. It identifies the lack of transparency in centrally managed databases as a significant issue leading to corrupt practices by bureaucrats. The paper proposes blockchain technology as a solution to enhance transparency and eliminate corruption in e-Governance systems. By leveraging the immutability and decentralized nature of blockchain, the authors aim to create a tamper-proof and transparent system for land registration, thereby improving trust and visibility among citizens.
 Blockchain technology is highlighted as a powerful tool for addressing the challenges of traditional e-Governance systems. By recording every activity on a distributed ledger, blockchain ensures that data cannot be tampered with or manipulated without the knowledge of concerned authorities or the public. The paper emphasizes the importance of data immutability in enhancing the transparency and integrity of e-Governance systems, thereby fostering trust between citizens and government institutions. Through the use of blockchain, the authors propose a solution to overcome the shortcomings of traditional e-Governance infrastructure and establish a more transparent and accountable system for land registration.
 The paper introduces a blockchain framework specifically designed for land registration processes, outlining the key characteristics and benefits of blockchain technology in this context. It illustrates how blockchain can address the challenges inherent in the current land registration system, such as corruption, inefficiencies, and lack of trust. By providing a detailed explanation of the proposed blockchain framework, including the structure of blocks and transactions involved in land registration, the authors demonstrate how blockchain can revolutionize the way land transactions are conducted, ensuring transparency, security, and accountability throughout the process.
 Furthermore, the paper discusses the implementation of the proposed blockchain framework using Hyperledger Fabric, a permissioned blockchain platform. It outlines the steps involved in the land registration process, from registration and verification to the final approval and issuance of sale deeds. Through smart contracts and state machine representation, the authors ensure the security and reliability of the system, highlighting the interconnectedness of different states within the process. By evaluating the system's performance using metrics such as throughput, latency, and execution time, the paper demonstrates the effectiveness and feasibility of implementing blockchain technology in e-Governance systems, particularly for land registration processes.
-2.1.6: Secure land registration using blockchain:
+**2.1.6: Secure land registration using blockchain:**
 The paper discusses the implementation of a secure land registry system using blockchain technology. The current land registration process is prone to vulnerabilities and fraudulent activities, which adversely affect both common citizens and governmental agencies. By leveraging blockchain, the proposed system aims to enhance security and transparency in land transactions. Blockchain technology ensures security through its decentralized and immutable ledger, where each transaction is recorded in a block linked to the previous one using cryptographic hashes. The use of SHA256 algorithm ensures the uniqueness and integrity of each block, while Proof of Work (PoW) algorithm enhances transaction security. The system employs elliptic curve cryptographic algorithm for signature generation, ensuring that transactions are signed by the rightful owner. Additionally, Merkle tree data structure is utilized for linking transactions, reducing disk space usage and enhancing efficiency.
 The proposed system addresses various challenges associated with traditional land registration processes, such as manual record-keeping, lack of transparency, and susceptibility to fraud. By implementing blockchain technology, the system aims to automate and secure the land registry process, thereby reducing manual effort and ensuring the integrity of transaction records. Blockchain's decentralized nature eliminates the need for intermediaries and enhances transparency by providing a tamper-proof record of transactions. Moreover, cryptographic techniques ensure the confidentiality and authenticity of ownership details, protecting against unauthorized access and fraudulent activities.Previous works in blockchain application across various domains, including healthcare, finance, and real estate, are compared with the proposed land registry system. The comparison highlights the features implemented in the proposed system, such as PoW, SHA256, elliptic curve cryptography, and Merkle tree, which offer enhanced security and efficiency compared to previous approaches. The paper emphasizes the significance of blockchain technology in addressing security and transparency challenges in land registration and highlights the potential benefits of implementing such a system, including increased liquidity, reduced risk, and lower costs associated with property transactions.
 The proposed solution includes a detailed description of the system architecture and algorithms employed, such as PoW for block validation, elliptic curve cryptography for signature generation, and Merkle tree for transaction linking. The system architecture comprises a network of nodes responsible for verifying transactions, mining new blocks, and maintaining the blockchain. Transactions are securely processed using private-public key pairs, and the integrity of the blockchain is maintained through cryptographic hashing and consensus mechanisms.
 The paper presents results of testing the proposed system, including a comparison with previous works and analysis of security measures implemented. The system's performance is evaluated based on factors such as transaction throughput, security, and scalability. Results demonstrate the effectiveness of blockchain technology in securing land transactions and reducing manual effort in record-keeping. The proposed system offers a significant reduction in fraudulent activities, increased efficiency, and improved transparency compared to traditional land registry methods.
 In conclusion, the paper outlines the significance of blockchain technology in revolutionizing land registration processes by providing enhanced security, transparency, and efficiency. The proposed system offers a robust solution to the challenges associated with traditional land registry methods, ensuring the integrity of transaction records and protecting against fraudulent activities. Future research directions may include further optimization of the system, integration with emerging technologies, and real-world deployment to evaluate its practical implications in land registration and property management.
 
-2.1.5 LITERATURE SURVEY SUMMARY
+**2.1.5 LITERATURE SURVEY SUMMARY**
 Research Title	Techniques	Advantages	Disadvantages
 Digital Land Registry System using Blockchain
 	Implementing a digital land registry system using Ethereum Smart contract Blockchain technology
@@ -113,7 +113,7 @@ Reduction in fraudulent activities and unauthorized access.
 Potential scalability issues with increasing transaction volume.
 
 
-      2.2 SCOPE OF THE PROJECT
+**2.2 SCOPE OF THE PROJECT**
 The proposed approach centers on utilizing the SHA-256 encryption cryptographic algorithm to facilitate the digitalization process. SHA-256 is a widely recognized and secure hashing algorithm that ensures the integrity and authenticity of digital data. By employing this algorithm, the system can securely store and transmit sensitive information related to land registration, ensuring that data remains tamper-proof and verifiable.
 Electronic signatures play a crucial role in enhancing the authenticity and legality of digital documents. Implementing electronic signatures enables parties involved in land transactions to sign documents electronically, eliminating the need for physical signatures and paperwork. This streamlined process accelerates transactions and reduces the risk of fraudulent activities, thereby promoting efficiency and transparency in the land registration system.
 The utilization of a peer-to-peer network architecture further strengthens the security and reliability of the system. A peer-to-peer network distributes the storage and processing of data across multiple nodes, reducing the risk of a single point of failure and enhancing data resilience. Additionally, peer-to-peer networks facilitate direct communication between users, enabling seamless and efficient transactions without the need for intermediaries.
@@ -121,13 +121,13 @@ Building trust among both the government and the people is essential for the suc
 The adoption of SHA-256 encryption, electronic signatures, and a peer-to-peer network underscores the commitment to modernizing the land registration system while prioritizing security and efficiency. Through these technological advancements, the government can demonstrate its dedication to embracing digital transformation and meeting the evolving needs of its citizens. By promoting transparency, integrity, and trustworthiness, the digitalization initiative aims to enhance the overall effectiveness and accessibility of the land registration process for all stakeholders involved.
 In summary, the integration of SHA-256 encryption, electronic signatures, and a peer-to-peer network represents a forward-thinking approach to digitizing the land registration system. These technologies collectively contribute to enhancing security, efficiency, and trust in the digitalization process, paving the way for a more streamlined and reliable land registration experience for both the government and the people.
                                   	
- 2.3 PROPOSED SYSTEM
+ **2.3 PROPOSED SYSTEM**
 In our system, users who want to sell or buy property must first register on the real estate platform. They can create a strong profile on the platform with their details such as proof of identity and government-issued designations. Owners can upload their property documents to the platform. Before uploading their documents to the platform, all documents are encrypted using the AES encryption algorithm. This is an encryption algorithm program that will encrypt and decrypt information. It's more secure than RSA, where it has no way been addressed and decrypted easily. Once the property details are uploaded to the platform by the owner, they will be made available to all users. If a buyer is interested in a particular property to buy. they can submit a request for accessing land specifications to the seller. The owner receives notice of access to the property. He can refuse or accept by referring to the buyer's profile. If he accepts, he sends the AES decryption key to access his ownership details. If the buyer is ready to purchase the land, he will send a request to send money to the seller. The seller will approve the land transfer request and the land inspector will be notified. Once the land inspector verifies the profile of buyers and sellers, digital transactions can be made to purchase the property. After the successful action of digital transaction, the land purchased contract is recovered using a hash generated by SHA256 and stored in the database to avoid future conflicts.
 
 The hash code will be given to the buyer and the hash value would be stored in the database and if the hash code available with the buyer and database are the same; then the land bought agreement are authenticated and no modifications have been made. By the third-party members. Generally, SHA256 is the most prominently used hash algorithm in blockchains; Initializing five arbitrary hex-character strings that will be part of the SHA256 hash function is the first step. After that, 1 is added to the end of the string, followed by enough 0s, until the communication has 448 bits. The length of the communication addressed by 64 pieces is also added as far as possible, creating a string that has 512 pieces in length The above-entered padded input, M, is also broken up into sixteen 32-bit words. In the case of" Name," there has only one chunk because the string has smaller than 512 bits in total. Presently, we store the hash values in the factors and store the consequence of the piece's hash in the overall Hash value, everything is equal, and continue to execute the following chunks. After all the chunks have been reused, the message digest will convert into a bit string using the OR logical operator, and the hashed value is the final step.
       3.1 METHODOLOGY
  
-3.SYSTEM ANALYSIS AND DESIGN
+**3.SYSTEM ANALYSIS AND DESIGN**
 
 Hardware Requirements:
 ❖	PENTIUM IV processor
@@ -140,11 +140,14 @@ Software Requirements:
 ❖	Windows/ Linux
        
 
-       3.4 SYSTEM ARCHITECTURE
- 
+**3.4 SYSTEM ARCHITECTURE**
+
+       ![arch](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/70dae903-356f-4b38-b409-24097658ca06)
+	![algorithm](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/d2ea8d37-dddf-4f2e-8136-cef509937876)
+
  
 
-                                                    4. IMPLEMENTATION
+ **4. IMPLEMENTATION**
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -632,49 +635,19 @@ public class mining {
 }
 
 
-5.RESULT
- 
-
- 
-
-
-
- 
-
- 
-
+**5.RESULT**
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/e15553c1-7162-4aba-8ff5-4e51555c8271)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/e7f86cd8-d324-4a62-8fc7-0a069661f5dc)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/dc311768-2f4f-49e4-bc2d-e65e293b6862)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/44c934c4-957b-4ef1-85dd-768eebada5d5)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/339f3141-bed0-49f8-920c-3991c0256d41)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/edbe5cc0-6cea-4604-935b-b76316434320)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/0dfb9040-cc17-4666-b1fb-4a59be5726d6)
+![image](https://github.com/ranjilion/212220220034-Final-year-project-repository/assets/160312357/082c1d9f-509a-4f66-aaed-b6d0dd362684)
 
 
 
- 
-
- 
-
-
-
-
- 
-
- 
-
-
-
-
- 
-
- 
-
-
-
-
- 
-
- 
-
-
-
-
-       6. CONCLUSION
+** 6. CONCLUSION**
 Blockchain technology has emerged as a promising solution for securing sensitive land records, given its inherent characteristics of transparency, immutability, and decentralization. In light of the sensitivity of land records, it is imperative to establish and maintain them in a secure manner to ensure long-term availability and transparency. Manual land records, although traditional, are susceptible to risks if not handled with adequate treatment and care. This susceptibility highlights the need for a more robust and secure approach, especially in the digital age where data breaches and unauthorized access pose significant threats. By leveraging blockchain technology, an electronic database utilizing a consensus protocol, governments and organizations can address these challenges effectively. Blockchain's decentralized nature ensures that no single entity has control over the entire system, thereby reducing the risk of tampering or manipulation of land records.
 
 One of the key advantages of blockchain technology in securing land records is its ability to provide transparency and auditability. Traditional land record systems often lack transparency, making it difficult for stakeholders to verify the authenticity and accuracy of the data. With blockchain, every transaction or update to the land records is recorded in a tamper-proof and immutable manner, creating a transparent audit trail. This transparency not only enhances trust among stakeholders but also reduces the potential for fraud and corruption. By providing a verifiable record of ownership and transactions, blockchain technology can significantly improve the integrity of land record management systems.
